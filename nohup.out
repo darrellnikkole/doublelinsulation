@@ -1,0 +1,12 @@
+/var/www/html/doublelinsulationcopy/doublelinsulation.py:48: SyntaxWarning: invalid escape sequence '\s'
+  processing_handler= '''<div id="output"></div>
+Traceback (most recent call last):
+  File "/var/www/html/doublelinsulationcopy/doublelinsulation.py", line 1073, in <module>
+    all_pages_protocol()
+  File "/var/www/html/doublelinsulationcopy/doublelinsulation.py", line 1061, in all_pages_protocol
+    sitemapcountyurl= create_county_page_url(state_repl, state, state_short_code_county, county_repl, county, confirm_county_pages, domain_site_name, county_web_contents2, all_table_data2, site_root, phone_number, Long_formurl, shortformurl, site_name, randomize_image)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/doublelinsulationcopy/doublelinsulation.py", line 945, in create_county_page_url
+    fp = open(f'{rootpath.replace('/', '',1)}{state_abbr_short}/{url_county_structure}/index.html', "w", encoding='utf-8-sig')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'mo/harrison-county/index.html'
